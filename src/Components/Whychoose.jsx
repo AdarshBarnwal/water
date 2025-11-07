@@ -1,7 +1,7 @@
-import React from "react";
+
 import "./WhyChoose.css";
 
-function WhyChoose() {
+function whychoose() {
   const items = [
     {
       title: "Our Mission",
@@ -38,5 +38,4 @@ function WhyChoose() {
     </div>
   );
 }
-
 export default WhyChoose;
