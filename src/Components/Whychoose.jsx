@@ -1,7 +1,7 @@
 
 import "./WhyChoose.css";
 
-function whychoose() {
+function WhyChoose() {
   const items = [
     {
       title: "Our Mission",
