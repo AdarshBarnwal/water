@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Banner from './Components/banner'
+import Banner from './Components/Banner'
 import Launch from './Components/Launch'
 import Understand from './Components/Understand'
 import Banner1 from './Components/Banner1'
