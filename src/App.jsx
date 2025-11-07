@@ -8,7 +8,7 @@ import Videosection from './Components/Videosection'
 import ContactForm from './Components/ContactForm'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
-import WhyChoose from './Components/WhyChoose'
+import Whychoose from './Components/Whychoose'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
     <Launch/>
     <Understand/>
     <Banner1/>
-    <WhyChoose/>
+    <Whychoose/>
     <Videosection/>
     <ContactForm/>
     <Footer/>
