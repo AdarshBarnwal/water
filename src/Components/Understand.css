@@ -1,0 +1,60 @@
+.understand-section {
+  background-color: #d7f1fc;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.understand-title {
+  font-size: 32px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #111;
+}
+
+.understand-subtitle {
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 80px;
+}
+
+.understand-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+
+.understand-icon {
+  font-size: 60px;
+  color: #0a0a0a;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.understand-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .understand-cards {
+    gap: 60px;
+  }
+  .understand-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+  }
+}

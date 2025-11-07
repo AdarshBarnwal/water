@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6f1fc;
+  padding: 10px 40px;
+  border-top: 1px solid #c0e6f7;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu h4:hover {
+  color: #008b8b; 
+  border-bottom: 2px solid #008b8b;
+}

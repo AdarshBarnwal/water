@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scroll-text {
+  display: inline-block;
+  animation: scroll-left 30s linear infinite;
+}
+
+.scroll-text span {
+    font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+  padding-right: 50vw;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
